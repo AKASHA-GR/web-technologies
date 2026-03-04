@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>conditional flow</title>
+</head>
+
+<body>
+    <h1>if Statement</h1>
+    <p>Executes a block of code only if the condition is true.<br>
+        int age = 20;<br>
+        if (age >= 18) {<br>
+        System.out.println("You are eligible to vote.");<br>
+        }
+    </p>
+
+
+    <h2>if-else Statement</h2>
+    <p>Executes one block if condition is true,otherwise executes another block.
+        int number = 5;<br>
+        if (number % 2 == 0) {<br>
+        System.out.println("Even number");<br>
+        } else {<br>
+        System.out.println("Odd number");<br>
+        }<br>
+    </p>
+
+
+
+    <h3>if-else-if Statement</h3>
+    <p>Checks multiple conditions one by one.<br>
+        int marks = 75;<br>
+        if (marks >= 90) {<br>
+        System.out.println("Grade A");<br>
+        } else if (marks >= 70) {<br>
+        System.out.println("Grade B");<br>
+        } else if (marks >= 50) {<br>
+        System.out.println("Grade C");<br>
+        } else {<br>
+        System.out.println("Fail");<br>
+        }<br>
+    </p>
+
+
+    <h4>Nested-if</h4>
+    <p>An if inside another if.<br>
+        int age = 25;<br>
+        boolean hasLicense = true;<br>
+
+        if (age >= 18) {<br>
+        if (hasLicense) {<br>
+        System.out.println("You can drive.");<br>
+        } else {<br>
+        System.out.println("You need a license.");<br>
+        }<br>
+        } else {<br>
+        System.out.println("You are too young to drive.");<br>
+        }<br>
+    </p>
+
+
+    <h5>Switch Statement</h5>
+    <p>Used when checking one variable against multiple fixed values.<br>
+        int day = 3;<br>
+
+        switch (day) {<br>
+        case 1:<br>
+        System.out.println("Monday");<br>
+        break;<br>
+        case 2:<br>
+        System.out.println("Tuesday");<br>
+        break;<br>
+        case 3:<br>
+        System.out.println("Wednesday");<br>
+        break;<br>
+        default:<br>
+        System.out.println("Invalid day");<br>
+        }<br>
+    </p>
+
+
+    <h6>Summary:</h6>
+    <p>Control statements (if-else, loops, switch) are essential in programming to break the linear flow of execution,
+        allowing programs to make decisions, repeat actions, and jump to specific code sections based on conditions.
+        They provide flexibility, efficiency, and the ability to handle complex logic, interactive user input, and
+        iterative tasks.</p>
+
+</body>
+
+</html>
