@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <defs>
+    <linearGradient id="sgrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#757575"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="15" width="180" height="50" rx="10" fill="url(#sgrad)"/>
+  <text x="100" y="50" font-family="Oswald, sans-serif" font-size="24" fill="#fff" text-anchor="middle">ALLEN SOLLY</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#111"/>
+      <stop offset="100%" stop-color="#888"/>
+    </linearGradient>
+  </defs>
+  <path d="M10 50 C70 10, 130 10, 190 50 L170 50 C120 20, 80 20, 30 50 Z" fill="url(#grad)"/>
+  <text x="100" y="70" font-family="Oswald, sans-serif" font-size="16" fill="#222" text-anchor="middle">NIKE</text>
+</svg>

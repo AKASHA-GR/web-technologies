@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <defs>
+    <linearGradient id="ggrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#222"/>
+      <stop offset="100%" stop-color="#555"/>
+    </linearGradient>
+  </defs>
+  <circle cx="70" cy="40" r="25" fill="none" stroke="url(#ggrad)" stroke-width="12"/>
+  <circle cx="130" cy="40" r="25" fill="none" stroke="url(#ggrad)" stroke-width="12"/>
+  <text x="100" y="70" font-family="Oswald, sans-serif" font-size="16" fill="#222" text-anchor="middle">GUCCI</text>
+</svg>
