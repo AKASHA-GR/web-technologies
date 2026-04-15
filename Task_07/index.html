@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <form name="registerform" onsubmit="return formValidate()">
+        <div>
+            <label for="namefield">Name</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="text" id="namefield" name="name" required>
+        </div>
+
+        <div>
+            <label for="namefield">Email</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="email" id="namefield" name="email" required>
+        </div>
+
+        <div>
+            <label for="namefield">Phone</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="tel" id="namefield" name="phone" required>
+        </div>
+        <div>
+            <button type="submit" name="submit">Submit</button>
+            <button type="clear" name="clear">Clear</button>
+        </div>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
