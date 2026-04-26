@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>From page</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 
 <body>
+    <h1>Registration Form</h1>
 
     <form name="registerform" onsubmit="return formValidate()">
         <div>
@@ -19,25 +21,38 @@
         </div>
 
         <div>
-            <label for="namefield">Email</label>
+            <label for="emailfield">Email</label>
             <span style="color: red;">*</span>
             <span>:</span>
-            <input type="email" id="namefield" name="email" required>
+            <input type="email" id="emailfield" name="email" required>
         </div>
 
         <div>
-            <label for="namefield">Phone</label>
+            <label for="phonefield">Phone</label>
             <span style="color: red;">*</span>
             <span>:</span>
-            <input type="tel" id="namefield" name="phone" required>
+            <input type="tel" id="phonefield" name="phone" required>
+        </div>
+
+        <div>
+            <label for="passwordfield">Password</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="password" id="passwordfield" name="password" required>
+        </div>
+
+        <div>
+            <label for="confirmPasswordfield">Confirm Password</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="password" id="confirmPasswordfield" name="confirm_password" required>
         </div>
         <div>
             <button type="submit" name="submit">Submit</button>
-            <button type="clear" name="clear">Clear</button>
+            <button type="reset" name="clear">Clear</button>
         </div>
     </form>
 
-    <script src="index.js"></script>
 </body>
 
 </html>
